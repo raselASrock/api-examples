@@ -19,4 +19,5 @@ Practise - 01
 Practise - 02
 1.load data for a random user
 2.display image
+3.city, street, address etc displayed
 */
