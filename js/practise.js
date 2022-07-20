@@ -13,3 +13,9 @@ Practise - 01
 3.add a click handler on the comment:
 4.if you click on the comment, it will open the relevent post
 */
+
+
+/* 
+Practise - 02
+1.random user
+*/
