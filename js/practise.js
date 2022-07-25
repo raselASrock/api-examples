@@ -8,5 +8,5 @@
 
 /* 
 Practise
-1.
+1. load comments from jesonPlaceholder
 */
