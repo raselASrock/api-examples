@@ -8,5 +8,6 @@
 
 /* 
 Practise
-1. load comments from jesonPlaceholder
+1. load comments from jesonPlaceholder and display comments on the UI
+2.display 20 comments only (first 20)
 */
