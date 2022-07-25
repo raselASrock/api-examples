@@ -7,7 +7,8 @@
 */
 
 /* 
-Practise
+Practise - 01
 1. load comments from jesonPlaceholder and display comments on the UI
 2.display 20 comments only (first 20)
+3.add a click handler on the post:
 */
