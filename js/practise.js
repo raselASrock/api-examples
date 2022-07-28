@@ -33,4 +33,11 @@ Practise -03
 Practise - 04
 1.explore sports Db if possible
 2.display something
+3.set dynamic API url 
+*/
+
+/* 
+Practise -05
+1.explore network tab
+2.display preview
 */
