@@ -11,11 +11,12 @@ const displayUsers = users => {
         const userDiv = document.createElement('div')
         userDiv.classList.add('user')
         userDiv.innerHTML = `
-        <h3>User Name: </h3>
-        <p>User Info:</p>
-        <p>User Email: ${user.email}</p>
+        <h3>User Info:</h3>
+        <p>User Name: ${user.name.title} ${user.name.first} ${user.name.last} </p>
         <p>User Age: ${user.dob.age}</p>
-        <p>User Address: ${user.location.city}</p>
+        <p>User Email: ${user.email}</p>
+        <p>User Contract: ${user.phone}</p>
+        <p>User Address: ${user.location.city} ${user.location.country}</p>
         `
         usersContainer.appendChild(userDiv)
     }
@@ -23,3 +24,6 @@ const displayUsers = users => {
 
 
 loadUsers()
+first: "آدرینا"
+last: "کوتی"
+title: "Miss"
