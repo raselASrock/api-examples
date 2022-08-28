@@ -5,9 +5,24 @@ const loadCountries = () => {
 }
 
 const displayCountries = countries => {
-    for( const country of countries){
+    // for( const country of countries){
+    //     console.log(country)
+    // }
+
+    const countriesContainer = document.getElementById('countries-container');
+    countries.forEach(country => {
+        const countryDiv = document.createElement('div');
+        countryDiv.classList.add('country');
         console.log(country)
-    }
+        countryDiv.innerHTML = `
+        <h3>Name: ${country.name.common}</h3>
+        <h3>Population: ${country.population}</h3>
+        <h3>Office Day: ${country.startOfWeek}</h3>
+        <h3>Capital: ${country.capital ? country.capital[0] : 'No Capital'}</h3>
+        `;
+        countriesContainer.appendChild(countryDiv);
+    })
+
 }
 
 loadCountries();
