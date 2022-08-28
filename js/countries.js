@@ -19,6 +19,7 @@ const displayCountries = countries => {
         <h3>Population: ${country.population}</h3>
         <h3>Office Day: ${country.startOfWeek}</h3>
         <h3>Capital: ${country.capital ? country.capital[0] : 'No Capital'}</h3>
+        <button onclick="loadCountryDetail(${country.cca2})" >Details</button>
         `;
         countriesContainer.appendChild(countryDiv);
     })
@@ -26,3 +27,7 @@ const displayCountries = countries => {
 }
 
 loadCountries();
+
+const loadCountryDetail = () => {
+    console.log('Get Country Details')
+}
